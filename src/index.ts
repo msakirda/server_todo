@@ -60,7 +60,7 @@ async function addTestTodo(valueTodo:string) {
 // Appelez la fonction pour ajouter une entrée "testTodoValue"
 
 
-app.get('/addSentenceToBDD/:sentance', (req, res) => {
+app.post('/addSentenceToBDD/:sentance', (req, res) => {
   // Récupérez les données du corps de la requête
   const donnees = req.body;
   //
